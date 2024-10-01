@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Projeto-Fatec/1.0.0": {
+        "runtime": {
+          "Projeto-Fatec.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto-Fatec/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
