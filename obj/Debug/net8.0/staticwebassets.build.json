@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QXs1wF+EKmGn0aGPDYKaVo70ic7emKT1qukX0iSJ1vU=",
+  "Hash": "jPM26Adpa8XOVu/teqbBRfFpvYzL7Y6z8wca12d1Ey8=",
   "Source": "Projeto-Fatec",
   "BasePath": "_content/Projeto-Fatec",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Projeto-Fatec.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\login.css",
+      "SourceId": "Projeto-Fatec",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
+      "BasePath": "_content/Projeto-Fatec",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\site.css",

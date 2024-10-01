@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Projeto-Fatec.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
