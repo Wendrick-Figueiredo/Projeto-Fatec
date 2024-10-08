@@ -1,0 +1,17 @@
+@model MeuModel
+
+<h2>Criar Novo Modelo</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" />
+        <span asp-validation-for="Nome"></span>
+    </div>
+    <div>
+        <label asp-for="Idade"></label>
+        <input asp-for="Idade" />
+        <span asp-validation-for="Idade"></span>
+    </div>
+    <button type="submit">Adicionar</button>
+</form>

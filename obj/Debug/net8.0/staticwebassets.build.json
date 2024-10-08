@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jPM26Adpa8XOVu/teqbBRfFpvYzL7Y6z8wca12d1Ey8=",
+  "Hash": "J1oE5RkW395J42GSFpi9wH5SyIhJNDBnTLYVMwbRPz8=",
   "Source": "Projeto-Fatec",
   "BasePath": "_content/Projeto-Fatec",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Projeto-Fatec.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\login.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\login\\style.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
       "BasePath": "_content/Projeto-Fatec",
-      "RelativePath": "css/login.css",
+      "RelativePath": "css/login/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\login.css"
+      "OriginalItemSpec": "wwwroot\\css\\login\\style.css"
     },
     {
       "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\site.css",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\img\\login\\use.jpeg",
+      "SourceId": "Projeto-Fatec",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
+      "BasePath": "_content/Projeto-Fatec",
+      "RelativePath": "img/login/use.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\login\\use.jpeg"
     },
     {
       "Identity": "D:\\Projeto-Fatec\\wwwroot\\js\\site.js",

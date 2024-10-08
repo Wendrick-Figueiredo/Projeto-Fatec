@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets\\Projeto-Fatec.bundle.scp.css"
     },
     {
-      "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\login.css",
-      "PackagePath": "staticwebassets\\css\\login.css"
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\login\\style.css",
+      "PackagePath": "staticwebassets\\css\\login\\style.css"
     },
     {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\site.css",
@@ -15,6 +15,10 @@
     {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\login\\use.jpeg",
+      "PackagePath": "staticwebassets\\img\\login\\use.jpeg"
     },
     {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\js\\site.js",
