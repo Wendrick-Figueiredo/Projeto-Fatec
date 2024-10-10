@@ -17,8 +17,60 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\img1.jpeg",
+      "PackagePath": "staticwebassets\\img\\img1.jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\img2.jpeg",
+      "PackagePath": "staticwebassets\\img\\img2.jpeg"
+    },
+    {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\login\\use.jpeg",
       "PackagePath": "staticwebassets\\img\\login\\use.jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_edit_Candid-image-photography-.jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_edit_Candid-image-photography-.jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_edit_Candid-image-photography-natural-textur.jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_edit_Candid-image-photography-natural-textur.jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (2).jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (2).jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (3).jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (3).jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (4).jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (4).jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (5).jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (5).jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (6).jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (6).jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (7).jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (7).jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r.jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r.jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\pikaso_text-to-image_Candid.jpeg",
+      "PackagePath": "staticwebassets\\img\\pikaso_text-to-image_Candid.jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\result-NTDDBVAK7X.webp",
+      "PackagePath": "staticwebassets\\img\\result-NTDDBVAK7X.webp"
     },
     {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\js\\site.js",

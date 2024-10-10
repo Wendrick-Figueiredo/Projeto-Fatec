@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Projeto_Fatec.Models;
 
 namespace Projeto_Fatec.Controllers;
 
@@ -24,6 +23,11 @@ public class HomeController : Controller
     }
 
     public IActionResult login()
+    {
+        return View();
+    }
+
+    public IActionResult inicio()
     {
         return View();
     }

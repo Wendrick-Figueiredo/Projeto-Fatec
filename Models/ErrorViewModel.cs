@@ -1,5 +1,3 @@
-namespace Projeto_Fatec.Models;
-
 public class ErrorViewModel
 {
     public string? RequestId { get; set; }
