@@ -1,15 +1,37 @@
-﻿@model MeuModel
+﻿@{
+    Layout = null;
+}
 
-<form asp-action="Create" method="post">
-    <div>
-        <label asp-for="Nome"></label>
-        <input asp-for="Nome" />
-        <span asp-validation-for="Nome"></span>
-    </div>
-    <div>
-        <label asp-for="Idade"></label>
-        <input asp-for="Idade" />
-        <span asp-validation-for="Idade"></span>
-    </div>
-    <button type="submit">Adicionar</button>
-</form>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login/style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <p class="title">Login</p>
+            <form class="form">
+                <div class="input-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" name="username" id="username" placeholder="">
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="">
+                    <div class="forgot">
+                        <a rel="noopener noreferrer" href="#">Esqueceu a Senha ?</a>
+                    </div>
+                </div>
+                <button class="sign" asp-controller="Produtos" asp-action="Index">Entrar</button>
+            </form>
+            <p class="signup">Não tenho conta?
+                <a rel="noopener noreferrer" href="#" class="">Cadastre-se</a>
+            </p>
+        </div>    
+    </main>
+</body>
+</html>
