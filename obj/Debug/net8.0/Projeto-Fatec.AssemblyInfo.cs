@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto-Fatec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34cfc41d01e91149538954a7de0e86b10f9425eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b1ff2729d73632ddf400a9fb4b083fd1d1150ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto-Fatec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto-Fatec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

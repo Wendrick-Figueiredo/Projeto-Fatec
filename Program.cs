@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 //Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 
 builder.Services.AddEntityFrameworkNpgsql()
-    .AddDbContext<Contexto>(options =>
+    .AddDbContext<ContextoUser>(options =>
     options.UseNpgsql("Host=localhost;Port=5433;Database=Projeto-Fatec;Username=postgres;Password=Teste01;"));
 
 var app = builder.Build();
@@ -30,6 +30,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Produtos}/{action=Index}/{id?}");
+    pattern: "{controller=Usuarios}/{action=Index}/{id?}");
 
 app.Run();

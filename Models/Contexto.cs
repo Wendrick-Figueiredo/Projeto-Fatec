@@ -11,4 +11,13 @@ namespace WebPostgreSQL.Models
 
         public DbSet<Produto> Produtos { get; set; }
     }
+    public class ContextoUser : DbContext
+    {
+        public ContextoUser(DbContextOptions<ContextoUser> options)
+            : base(options)
+        {
+
+        }
+        public DbSet<Usuario> Usuarios { get; set; }
+    }
 }
