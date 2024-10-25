@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100vh;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header .menu:hover {
+    transition: .5s ease-in;
+    width: 110px;
+}
+
+header .menu:hover .logo img{
+    transition: .5s ease-in;
+    width: 60px;
+    height: 60px;
+}
+
+header .logo {
+    margin-bottom: 30px;
+}
+
+header .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+header .menu-item {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+header .menu-item:hover {
+    background-color: #333333;
+}
+
+header .tooltip {
+    position: absolute;
+    left: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    font-size: 14px;
+}
+
+header .menu-item:hover .tooltip {
+    opacity: 1;
+}
+
+header .spacer {
+    flex-grow: 1;
+}
+
+
+main .relogio-container {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: #1c1f26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+main .relogio {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+main.moverFixed .container {
+    transition: .5s ease-in;
+    left: 125px;
+}
+
+main .container {
+    position: fixed;
+    left: 65px;
+    top: 25px;
+}
+
+.title-textarea-wrapper {
+    margin-top: 20px;
+}
+
+.textarea-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.lembreContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
