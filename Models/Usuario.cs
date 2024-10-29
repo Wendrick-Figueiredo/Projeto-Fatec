@@ -10,8 +10,16 @@ namespace WebPostgreSQL.Models
         [Display(Name ="Código")]
         public int Id { get; set; }
 
-        [Column("Nome")]
+        [Column("Nome_Usuario")]
         [Display(Name = "Nome")]
-        public string? Nome  { get; set; }
+        public string? Nome_Usuario  { get; set; }
+
+        [Column("Senha_Usuario")]
+        [Display(Name = "Senha")]
+        public string? Senha_Usuario  { get; set; }
+
+        [Column("Nivel_Acesso")]
+        [Display(Name = "Nivel Acesso")]
+        public string? Nivel_Acesso  { get; set; }
     }
 }

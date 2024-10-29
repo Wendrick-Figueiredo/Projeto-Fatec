@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\Projeto-Fatec.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\barralateral\\style copy.css",
+      "PackagePath": "staticwebassets\\css\\barralateral\\style copy.css"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\barralateral\\style.css",
+      "PackagePath": "staticwebassets\\css\\barralateral\\style.css"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\login\\style.css",
+      "PackagePath": "staticwebassets\\css\\login\\style.css"
+    },
+    {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\logoDente.jpeg",
+      "PackagePath": "staticwebassets\\img\\logoDente.jpeg"
+    },
+    {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\js\\barralateral\\script.js",
+      "PackagePath": "staticwebassets\\js\\barralateral\\script.js"
     },
     {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\js\\site.js",

@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Projeto_Fatec.Migrations
 {
     /// <inheritdoc />
-    public partial class Usuario : Migration
+    public partial class Migrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,7 +17,9 @@ namespace Projeto_Fatec.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Nome = table.Column<string>(type: "text", nullable: true)
+                    Nome_Usuario = table.Column<string>(type: "text", nullable: true),
+                    Senha_Usuario = table.Column<string>(type: "text", nullable: true),
+                    Nivel_Acesso = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {

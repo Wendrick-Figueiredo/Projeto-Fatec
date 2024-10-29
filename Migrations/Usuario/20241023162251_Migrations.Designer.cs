@@ -11,8 +11,8 @@ using WebPostgreSQL.Models;
 namespace Projeto_Fatec.Migrations
 {
     [DbContext(typeof(ContextoUser))]
-    [Migration("20241017184532_Usuario")]
-    partial class Usuario
+    [Migration("20241023162251_Migrations")]
+    partial class Migrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,9 +33,17 @@ namespace Projeto_Fatec.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("Nivel_Acesso")
                         .HasColumnType("text")
-                        .HasColumnName("Nome");
+                        .HasColumnName("Nivel_Acesso");
+
+                    b.Property<string>("Nome_Usuario")
+                        .HasColumnType("text")
+                        .HasColumnName("Nome_Usuario");
+
+                    b.Property<string>("Senha_Usuario")
+                        .HasColumnType("text")
+                        .HasColumnName("Senha_Usuario");
 
                     b.HasKey("Id");
 
