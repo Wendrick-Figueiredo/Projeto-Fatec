@@ -23,12 +23,12 @@ namespace Projeto_Fatec.Migrations
 
             modelBuilder.Entity("WebPostgreSQL.Models.Usuario", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("UsuarioId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
-                        .HasColumnName("Id");
+                        .HasColumnName("UsuarioId");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("UsuarioId"));
 
                     b.Property<string>("Nivel_Acesso")
                         .HasColumnType("text")
@@ -42,7 +42,7 @@ namespace Projeto_Fatec.Migrations
                         .HasColumnType("text")
                         .HasColumnName("Senha_Usuario");
 
-                    b.HasKey("Id");
+                    b.HasKey("UsuarioId");
 
                     b.ToTable("Usuario");
                 });

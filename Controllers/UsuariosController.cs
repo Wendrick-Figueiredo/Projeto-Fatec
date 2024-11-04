@@ -27,15 +27,15 @@ namespace WebPostgreSQL.Controllers
         }
 
         // GET: Usuarios/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? UsuarioId)
         {
-            if (id == null)
+            if (UsuarioId == null)
             {
                 return NotFound();
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.UsuarioId == UsuarioId);
             if (usuario == null)
             {
                 return NotFound();
@@ -55,7 +55,7 @@ namespace WebPostgreSQL.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome_Usuario,Senha_Usuario,Nivel_Acesso")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("UsuarioId,Nome_Usuario,Senha_Usuario,Nivel_Acesso")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -67,14 +67,14 @@ namespace WebPostgreSQL.Controllers
         }
 
         // GET: Usuarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? UsuarioId)
         {
-            if (id == null)
+            if (UsuarioId == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuarios.FindAsync(id);
+            var usuario = await _context.Usuarios.FindAsync(UsuarioId);
             if (usuario == null)
             {
                 return NotFound();
@@ -87,9 +87,9 @@ namespace WebPostgreSQL.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome_Usuario,Senha_Usuario,Nivel_Acesso")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("UsuarioId,Nome_Usuario,Senha_Usuario,Nivel_Acesso")] Usuario usuario)
         {
-            if (id != usuario.Id)
+            if (id != usuario.UsuarioId)
             {
                 return NotFound();
             }
@@ -103,7 +103,7 @@ namespace WebPostgreSQL.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UsuarioExists(usuario.Id))
+                    if (!UsuarioExists(usuario.UsuarioId))
                     {
                         return NotFound();
                     }
@@ -118,15 +118,15 @@ namespace WebPostgreSQL.Controllers
         }
 
         // GET: Usuarios/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? UsuarioId)
         {
-            if (id == null)
+            if (UsuarioId == null)
             {
                 return NotFound();
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.UsuarioId == UsuarioId);
             if (usuario == null)
             {
                 return NotFound();
@@ -138,17 +138,17 @@ namespace WebPostgreSQL.Controllers
         // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int UsuarioId)
         {
-            var usuario = await _context.Usuarios.FindAsync(id);
+            var usuario = await _context.Usuarios.FindAsync(UsuarioId);
             _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool UsuarioExists(int id)
+        private bool UsuarioExists(int UsuarioId)
         {
-            return _context.Usuarios.Any(e => e.Id == id);
+            return _context.Usuarios.Any(e => e.UsuarioId == UsuarioId);
         }
     }
 }

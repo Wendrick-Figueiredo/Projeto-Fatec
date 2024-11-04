@@ -1,4 +1,4 @@
-﻿// #nullable disable
+// #nullable disable
 // using System;
 // using System.Collections.Generic;
 // using System.Linq;
@@ -6,26 +6,27 @@
 // using Microsoft.AspNetCore.Mvc;
 // using Microsoft.AspNetCore.Mvc.Rendering;
 // using Microsoft.EntityFrameworkCore;
+// using Microsoft.Identity.Client;
 // using WebPostgreSQL.Models;
 
 // namespace WebPostgreSQL.Controllers
 // {
-//     public class ProdutosController : Controller
+//     public class PacienteController : Controller
 //     {
-//         private readonly Contexto _context;
+//         private readonly ContextoPaciente _context;
 
-//         public ProdutosController(Contexto context)
+//         public PacienteController(ContextoPaciente context)
 //         {
 //             _context = context;
 //         }
 
-//         // GET: Produtos
+//         // GET: Pacientes
 //         public async Task<IActionResult> Index()
 //         {
-//             return View(await _context.Produtos.ToListAsync());
+//             return View(await _context.Pacientes.ToListAsync());
 //         }
 
-//         // GET: Produtos/Details/5
+//         // GET: Pacientes/Details/5
 //         public async Task<IActionResult> Details(int? id)
 //         {
 //             if (id == null)
@@ -33,39 +34,42 @@
 //                 return NotFound();
 //             }
 
-//             var produto = await _context.Produtos
+//             var paciente = await _context.Pacientes
 //                 .FirstOrDefaultAsync(m => m.Id == id);
-//             if (produto == null)
+//             if (paciente == null)
 //             {
 //                 return NotFound();
 //             }
 
-//             return View(produto);
+//             return View(paciente);
 //         }
 
-//         // GET: Produtos/Create
+//         // GET: Pacientes/Create
 //         public IActionResult Create()
 //         {
 //             return View();
 //         }
 
-//         // POST: Produtos/Create
+//         // POST: Pacientes/Create
 //         // To protect from overposting attacks, enable the specific properties you want to bind to.
 //         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
 //         [HttpPost]
 //         [ValidateAntiForgeryToken]
-//         public async Task<IActionResult> Create([Bind("Id,Nome")] Produto produto)
+//         public async Task<IActionResult> Create([Bind
+//         ("Id,Nome_Paciente,Cpf_Paciente,DTNascimento_Paciente,Sexo_Paciente,"+
+//         "Telefone_Paciente,EstadoCivil_Paciente,UF_Paciente,CEP_Paciente,"+
+//         "Municipio_Paciente,Bairro_Paciente,Logradouro_Paciente,Numero_Paciente")] Paciente paciente)
 //         {
 //             if (ModelState.IsValid)
 //             {
-//                 _context.Add(produto);
+//                 _context.Add(paciente);
 //                 await _context.SaveChangesAsync();
 //                 return RedirectToAction(nameof(Index));
 //             }
-//             return View(produto);
+//             return View(paciente);
 //         }
 
-//         // GET: Produtos/Edit/5
+//         // GET: Pacientes/Edit/5
 //         public async Task<IActionResult> Edit(int? id)
 //         {
 //             if (id == null)
@@ -73,22 +77,25 @@
 //                 return NotFound();
 //             }
 
-//             var produto = await _context.Produtos.FindAsync(id);
-//             if (produto == null)
+//             var paciente = await _context.Pacientes.FindAsync(id);
+//             if (paciente == null)
 //             {
 //                 return NotFound();
 //             }
-//             return View(produto);
+//             return View(paciente);
 //         }
 
-//         // POST: Produtos/Edit/5
+//         // POST: Pacientes/Edit/5
 //         // To protect from overposting attacks, enable the specific properties you want to bind to.
 //         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
 //         [HttpPost]
 //         [ValidateAntiForgeryToken]
-//         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome")] Produto produto)
+//         public async Task<IActionResult> Edit(int id, [
+//         Bind("Id,Nome_Paciente,Cpf_Paciente,DTNascimento_Paciente,Sexo_Paciente,"+
+//         "Telefone_Paciente,EstadoCivil_Paciente,UF_Paciente,CEP_Paciente,"+
+//         "Municipio_Paciente,Bairro_Paciente,Logradouro_Paciente,Numero_Paciente")] Paciente paciente)
 //         {
-//             if (id != produto.Id)
+//             if (id != paciente.Id)
 //             {
 //                 return NotFound();
 //             }
@@ -97,12 +104,12 @@
 //             {
 //                 try
 //                 {
-//                     _context.Update(produto);
+//                     _context.Update(paciente);
 //                     await _context.SaveChangesAsync();
 //                 }
 //                 catch (DbUpdateConcurrencyException)
 //                 {
-//                     if (!ProdutoExists(produto.Id))
+//                     if (!PacienteExists(paciente.Id))
 //                     {
 //                         return NotFound();
 //                     }
@@ -113,10 +120,10 @@
 //                 }
 //                 return RedirectToAction(nameof(Index));
 //             }
-//             return View(produto);
+//             return View(paciente);
 //         }
 
-//         // GET: Produtos/Delete/5
+//         // GET: Pacientes/Delete/5
 //         public async Task<IActionResult> Delete(int? id)
 //         {
 //             if (id == null)
@@ -124,30 +131,30 @@
 //                 return NotFound();
 //             }
 
-//             var produto = await _context.Produtos
+//             var paciente = await _context.Pacientes
 //                 .FirstOrDefaultAsync(m => m.Id == id);
-//             if (produto == null)
+//             if (paciente == null)
 //             {
 //                 return NotFound();
 //             }
 
-//             return View(produto);
+//             return View(paciente);
 //         }
 
-//         // POST: Produtos/Delete/5
+//         // POST: Paciente/Delete/5
 //         [HttpPost, ActionName("Delete")]
 //         [ValidateAntiForgeryToken]
 //         public async Task<IActionResult> DeleteConfirmed(int id)
 //         {
-//             var produto = await _context.Produtos.FindAsync(id);
-//             _context.Produtos.Remove(produto);
+//             var paciente = await _context.Pacientes.FindAsync(id);
+//             _context.Pacientes.Remove(paciente);
 //             await _context.SaveChangesAsync();
 //             return RedirectToAction(nameof(Index));
 //         }
 
-//         private bool ProdutoExists(int id)
+//         private bool PacienteExists(int id)
 //         {
-//             return _context.Produtos.Any(e => e.Id == id);
+//             return _context.Pacientes.Any(e => e.Id == id);
 //         }
 //     }
 // }

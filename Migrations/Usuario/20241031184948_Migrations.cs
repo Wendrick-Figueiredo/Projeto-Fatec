@@ -15,7 +15,7 @@ namespace Projeto_Fatec.Migrations
                 name: "Usuario",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "integer", nullable: false)
+                    UsuarioId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nome_Usuario = table.Column<string>(type: "text", nullable: true),
                     Senha_Usuario = table.Column<string>(type: "text", nullable: true),
@@ -23,7 +23,7 @@ namespace Projeto_Fatec.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Usuario", x => x.Id);
+                    table.PrimaryKey("PK_Usuario", x => x.UsuarioId);
                 });
         }
 

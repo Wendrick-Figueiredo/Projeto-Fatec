@@ -6,9 +6,9 @@ namespace WebPostgreSQL.Models
     [Table("Usuario")]
     public class Usuario
     {
-        [Column("Id")]
+        [Column("UsuarioId")]
         [Display(Name ="Código")]
-        public int Id { get; set; }
+        public int UsuarioId { get; set; }
 
         [Column("Nome_Usuario")]
         [Display(Name = "Nome")]
