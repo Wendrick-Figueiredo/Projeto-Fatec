@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Números Aleatórios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Números Aleatórios</h1>
+        <button id="generateBtn">Gerar Número</button>
+        <h2 id="result"></h2>
+        <button id="resetBtn">Resetar Números</button>
+    </div>
+
+    <script>
+        const generateBtn = document.getElementById('generateBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const result = document.getElementById('result');
+
+        generateBtn.addEventListener('click', async () => {
+            const response = await fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                result.textContent = `Número gerado: ${data.number}`;
+            } else {
+                result.textContent = 'Erro ao gerar número.';
+            }
+        });
+
+        resetBtn.addEventListener('click', async () => {
+            const response = await fetch('/reset', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                result.textContent = 'Números resetados.';
+            } else {
+                result.textContent = 'Erro ao resetar números.';
+            }
+        });
+    </script>
+</body>
+</html>
