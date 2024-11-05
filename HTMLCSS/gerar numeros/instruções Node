@@ -1,0 +1,8 @@
+primeiro execute se caso tiver i node.js instalado na sua maquina
+npm init -y
+
+apos isso instale a extenção 
+npm install express
+
+em seguida execute o codigo no CMD
+node server.js
