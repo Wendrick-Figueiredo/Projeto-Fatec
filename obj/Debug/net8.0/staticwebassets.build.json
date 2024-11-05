@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6mW4pDDHQB9+YYZ2JTyRt7OFRapuH1z2KnoQ+dwKclI=",
+  "Hash": "uOX87ag57Xe+irxgUmK7st4t3zuMsZtm3xH3nFAOvJA=",
   "Source": "Projeto-Fatec",
   "BasePath": "_content/Projeto-Fatec",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logoDente.jpeg"
+    },
+    {
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\img\\use.jpeg",
+      "SourceId": "Projeto-Fatec",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
+      "BasePath": "_content/Projeto-Fatec",
+      "RelativePath": "img/use.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\use.jpeg"
     },
     {
       "Identity": "D:\\Projeto-Fatec\\wwwroot\\js\\barralateral\\script.js",

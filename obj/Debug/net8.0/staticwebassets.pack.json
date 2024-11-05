@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\img\\logoDente.jpeg"
     },
     {
+      "Id": "D:\\Projeto-Fatec\\wwwroot\\img\\use.jpeg",
+      "PackagePath": "staticwebassets\\img\\use.jpeg"
+    },
+    {
       "Id": "D:\\Projeto-Fatec\\wwwroot\\js\\barralateral\\script.js",
       "PackagePath": "staticwebassets\\js\\barralateral\\script.js"
     },
