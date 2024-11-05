@@ -1,4 +1,4 @@
-﻿@* @model WebPostgreSQL.Models.Usuario
+﻿@model WebPostgreSQL.Models.Usuario
 
 @{
     ViewData["Title"] = "Edit";
@@ -12,7 +12,7 @@
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="UsuarioId" />
             <div class="form-group">
                 <label asp-for="Nome_Usuario" class="control-label"></label>
                 <input asp-for="Nome_Usuario" class="form-control" />
@@ -35,4 +35,4 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-} *@
+}

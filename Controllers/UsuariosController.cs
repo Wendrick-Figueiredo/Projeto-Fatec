@@ -13,9 +13,9 @@ namespace WebPostgreSQL.Controllers
 {
     public class UsuariosController : Controller
     {
-        private readonly ContextoUser _context;
+        private readonly Contexto _context;
 
-        public UsuariosController(ContextoUser context)
+        public UsuariosController(Contexto context)
         {
             _context = context;
         }

@@ -9,7 +9,7 @@ using WebPostgreSQL.Models;
 
 namespace Projeto_Fatec.Migrations
 {
-    [DbContext(typeof(ContextoUser))]
+    [DbContext(typeof(Contexto))]
     partial class ContextoUserModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

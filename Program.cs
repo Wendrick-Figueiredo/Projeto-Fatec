@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 //Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 
 builder.Services.AddEntityFrameworkNpgsql()
-    .AddDbContext<ContextoConsulta>(options =>
+    .AddDbContext<Contexto>(options =>
     options.UseNpgsql("Host=localhost;Port=5433;Database=Projeto-Fatec;Username=postgres;Password=Teste01;"));
 
 var app = builder.Build();

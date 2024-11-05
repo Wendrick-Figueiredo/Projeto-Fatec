@@ -1,119 +1,221 @@
 @{
     Layout = null;
+    ViewData["Title"] = "Login";
 }
+
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="~/css/login/style.css">
-    <title>@ViewData["Title"]Login</title>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        .login-container {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .error-message {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form asp-controller="Auth" asp-action="Login" method="post">
+            <div class="form-group">
+                <label for="nomeUsuario">Nome de Usuário</label>
+                <input type="text" id="nomeUsuario" name="nomeUsuario" required>
+            </div>
+            <div class="form-group">
+                <label for="senhaUsuario">Senha</label>
+                <input type="password" id="senhaUsuario" name="senhaUsuario" required>
+            </div>
+            <button type="submit">Entrar</button>
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <p class="error-message">@ViewBag.ErrorMessage</p>
+            }
+        </form>
+    </div>
+</body>
+
+</html>
+
+
+@* @{
+Layout = null;
+}
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="~/css/login/style.css">
+<title>@ViewData["Title"]Login</title>
 </head>
 
 <main>
-    <div class="form-container-registro">
-        <p class="title-registro">Login</p>
-        <form class="form-registro">
+<div class="form-container-registro">
+<p class="title-registro">Login</p>
+<form class="form-registro">
 
-            <div class="input-group-registro">
-                <label for="role">Selecione seu perfil</label>
-                <select name="role" id="role">
-                    <option value="usuario" selected>Usuário</option>
-                    <option value="admin">Administrador</option>
-                </select>
-            </div><br>
+<div class="input-group-registro">
+<label for="role">Selecione seu perfil</label>
+<select name="role" id="role">
+<option value="usuario" selected>Usuário</option>
+<option value="admin">Administrador</option>
+</select>
+</div><br>
 
-            <!-- Campos para administrador -->
-            <div id="adminFields" style="display: none;">
-                <div class="input-group-registro">
-                    <label for="codigoAcesso">Código de Acesso do Administrador</label>
-                    <input type="text" name="codigoAcesso" id="codigoAcesso" placeholder="Código de Acesso do Adm">
-                </div>
-                <div class="input-group-registro">
-                    <label for="adm-login">Nome Adm ou User Adm</label>
-                    <input type="text" name="adm-login" id="adm-login" placeholder="Digite o Nome do Adm">
-                </div>
-                <div class="input-group-registro">
-                    <label for="senha-login">Senha</label>
-                    <input type="password" name="senha-login" id="senha-login" placeholder="Digite a sua Senha">
-                </div>
-            </div>
+<!-- Campos para administrador -->
+<div id="adminFields" style="display: none;">
+<div class="input-group-registro">
+<label for="codigoAcesso">Código de Acesso do Administrador</label>
+<input type="text" name="codigoAcesso" id="codigoAcesso" placeholder="Código de Acesso do Adm">
+</div>
+<div class="input-group-registro">
+<label for="adm-login">Nome Adm ou User Adm</label>
+<input type="text" name="adm-login" id="adm-login" placeholder="Digite o Nome do Adm">
+</div>
+<div class="input-group-registro">
+<label for="senha-login">Senha</label>
+<input type="password" name="senha-login" id="senha-login" placeholder="Digite a sua Senha">
+</div>
+</div>
 
-            <!-- Campos para usuário -->
-            <div id="userFields">
-                <div class="input-group-registro"><br>
-                    <label for="username-registro">Nome ou Usuário</label>
-                    <input type="text" name="username-registro" id="username-registro" placeholder="">
-                </div>
-                <div class="input-group-registro"><br>
-                    <label for="password-registro" id="label">Senha</label>
-                    <div class="password-container-registro">
-                        <input type="password" name="password-registro" id="password-registro" placeholder="">
-                        <span id="togglePassword-registro" title="Ver Minha Senha">👁️</span>
-                    </div>
-                </div>
-            </div>
+<!-- Campos para usuário -->
+<div id="userFields">
+<div class="input-group-registro"><br>
+<label for="username-registro">Nome ou Usuário</label>
+<input type="text" name="username-registro" id="username-registro" placeholder="">
+</div>
+<div class="input-group-registro"><br>
+<label for="password-registro" id="label">Senha</label>
+<div class="password-container-registro">
+<input type="password" name="password-registro" id="password-registro" placeholder="">
+<span id="togglePassword-registro" title="Ver Minha Senha">👁️</span>
+</div>
+</div>
+</div>
 
-            <br><br>
-            <button class="sign-registro" asp-controller="Home" asp-action="Index">Entrar</button>
-        </form>
-        <p class="signup-registro">Não tenho conta?
-            <a rel="noopener noreferrer" href="#" class="">Cadastrar</a>
-        </p>
-    </div>
+<br><br>
+<button class="sign-registro" asp-controller="Home" asp-action="Index">Entrar</button>
+</form>
+<p class="signup-registro">Não tenho conta?
+<a rel="noopener noreferrer" href="#" class="">Cadastrar</a>
+</p>
+</div>
 </main>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const usernameInputRegistro = document.getElementById("username-registro");
-        const passwordInputRegistro = document.getElementById("password-registro");
-        const usernameLabelRegistro = document.querySelector("label[for='username-registro']");
-        const passwordLabelRegistro = document.querySelector("label[for='password-registro']");
-        const togglePasswordButtonRegistro = document.getElementById("togglePassword-registro");
+document.addEventListener("DOMContentLoaded", function () {
+const usernameInputRegistro = document.getElementById("username-registro");
+const passwordInputRegistro = document.getElementById("password-registro");
+const usernameLabelRegistro = document.querySelector("label[for='username-registro']");
+const passwordLabelRegistro = document.querySelector("label[for='password-registro']");
+const togglePasswordButtonRegistro = document.getElementById("togglePassword-registro");
 
-        const originalUserText = usernameLabelRegistro.innerText;
-        const originalPassText = passwordLabelRegistro.innerText;
+const originalUserText = usernameLabelRegistro.innerText;
+const originalPassText = passwordLabelRegistro.innerText;
 
-        const roleSelect = document.getElementById("role");
-        const adminFields = document.getElementById("adminFields");
-        const userFields = document.getElementById("userFields");
+const roleSelect = document.getElementById("role");
+const adminFields = document.getElementById("adminFields");
+const userFields = document.getElementById("userFields");
 
-        adminFields.style.display = "none";
-        userFields.style.display = "block";
+adminFields.style.display = "none";
+userFields.style.display = "block";
 
-        roleSelect.addEventListener("change", function () {
-            if (roleSelect.value === "admin") {
-                adminFields.style.display = "block";
-                userFields.style.display = "none";
-            } else {
-                adminFields.style.display = "none";
-                userFields.style.display = "block";
-            }
-        });
+roleSelect.addEventListener("change", function () {
+if (roleSelect.value === "admin") {
+adminFields.style.display = "block";
+userFields.style.display = "none";
+} else {
+adminFields.style.display = "none";
+userFields.style.display = "block";
+}
+});
 
-        usernameInputRegistro.addEventListener("focus", function () {
-            usernameLabelRegistro.classList.add("efeitoLabel");
-            usernameLabelRegistro.innerText = "Digite Nome ou Usuário...";
-        });
+usernameInputRegistro.addEventListener("focus", function () {
+usernameLabelRegistro.classList.add("efeitoLabel");
+usernameLabelRegistro.innerText = "Digite Nome ou Usuário...";
+});
 
-        usernameInputRegistro.addEventListener("blur", function () {
-            usernameLabelRegistro.classList.remove("efeitoLabel");
-            usernameLabelRegistro.innerText = originalUserText;
-        });
+usernameInputRegistro.addEventListener("blur", function () {
+usernameLabelRegistro.classList.remove("efeitoLabel");
+usernameLabelRegistro.innerText = originalUserText;
+});
 
-        passwordInputRegistro.addEventListener("focus", function () {
-            passwordLabelRegistro.classList.add("efeitoPassword");
-            passwordLabelRegistro.innerText = "Digite uma Senha..."
-        });
+passwordInputRegistro.addEventListener("focus", function () {
+passwordLabelRegistro.classList.add("efeitoPassword");
+passwordLabelRegistro.innerText = "Digite uma Senha..."
+});
 
-        passwordInputRegistro.addEventListener("blur", function () {
-            passwordLabelRegistro.classList.remove("efeitoPassword");
-            passwordLabelRegistro.innerText = originalPassText;
-        });
+passwordInputRegistro.addEventListener("blur", function () {
+passwordLabelRegistro.classList.remove("efeitoPassword");
+passwordLabelRegistro.innerText = originalPassText;
+});
 
-        togglePasswordButtonRegistro.addEventListener("click", function () {
-            const isPasswordType = passwordInputRegistro.type === "password";
-            passwordInputRegistro.type = isPasswordType ? "text" : "password";
-            togglePasswordButtonRegistro.innerText = isPasswordType ? "🙈" : "👁️";
-        });
-    });
-</script>
+togglePasswordButtonRegistro.addEventListener("click", function () {
+const isPasswordType = passwordInputRegistro.type === "password";
+passwordInputRegistro.type = isPasswordType ? "text" : "password";
+togglePasswordButtonRegistro.innerText = isPasswordType ? "🙈" : "👁️";
+});
+});
+</script> *@

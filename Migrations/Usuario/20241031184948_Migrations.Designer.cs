@@ -10,7 +10,7 @@ using WebPostgreSQL.Models;
 
 namespace Projeto_Fatec.Migrations
 {
-    [DbContext(typeof(ContextoUser))]
+    [DbContext(typeof(Contexto))]
     [Migration("20241031184948_Migrations")]
     partial class Migrations
     {
