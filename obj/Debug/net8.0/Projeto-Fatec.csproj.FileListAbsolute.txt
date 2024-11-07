@@ -148,3 +148,5 @@ D:\Projeto-Fatec\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching
 D:\Projeto-Fatec\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Projeto-Fatec\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Projeto-Fatec\obj\Debug\net8.0\Projeto-.BC4E282B.Up2Date
+D:\Projeto-Fatec\bin\Debug\net8.0\HTMLCSS\gerar numeros\package-lock.json
+D:\Projeto-Fatec\bin\Debug\net8.0\HTMLCSS\gerar numeros\package.json

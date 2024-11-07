@@ -1,1 +1,180 @@
-﻿<h1>Teste</h1>
+﻿<div class="relogio-container">
+    <div class="relogio">
+        <span id="horas">00</span> :
+        <span id="minutos">00</span> :
+        <span id="segundos">00</span>
+    </div>
+</div>
+
+<div class="container">
+    <button onclick="abrirCalendario()">Abrir Calendário</button>
+
+    <div class="calendar-overlay" id="calendario" style="display: none;">
+        <div class="calendar-content">
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <button id="prev-month">Anterior</button>
+                    <h2 id="month-year"></h2>
+                    <button id="next-month">Próximo</button>
+                </div>
+
+                <div id="month-grid" class="month-grid hidden" onclick="selectMonth(event)">
+                    <div data-month="0">Janeiro</div>
+                    <div data-month="1">Fevereiro</div>
+                    <div data-month="2">Março</div>
+                    <div data-month="3">Abril</div>
+                    <div data-month="4">Maio</div>
+                    <div data-month="5">Junho</div>
+                    <div data-month="6">Julho</div>
+                    <div data-month="7">Agosto</div>
+                    <div data-month="8">Setembro</div>
+                    <div data-month="9">Outubro</div>
+                    <div data-month="10">Novembro</div>
+                    <div data-month="11">Dezembro</div>
+                </div>
+
+                <div id="year-grid" class="year-grid hidden" onclick="selectYear(event)"></div>
+
+                <table class="calendar">
+                    <thead>
+                        <tr>
+                            <th>Dom</th>
+                            <th>Seg</th>
+                            <th>Ter</th>
+                            <th>Qua</th>
+                            <th>Qui</th>
+                            <th>Sex</th>
+                            <th>Sáb</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-body"></tbody>
+                </table>
+                <button onclick="fecharCalendario()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="lembretes">
+        <h2 class="title-textarea-wrapper">Lembretes</h2>
+        <div class="textarea-wrapper">
+            <div class="lembreContainer">
+                <h4>Container 1</h4>
+                <p>Informação sobre o primeiro container.</p>
+            </div>
+            <div class="lembreContainer">
+                <h4>Container 2</h4>
+                <p>Informação sobre o segundo container.</p>
+            </div>
+            <div class="lembreContainer">
+                <h4>Container 3</h4>
+                <p>Informação sobre o terceiro container.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="containerModal">
+
+        <button onclick="abrirModal()" class="btnCadastraCliente">Cadastrar Clientes</button>
+
+        <div class="modal-overlay" id="modal">
+            <div class="modal-content">
+                <form class="form">
+                    <p class="title">Registrar Cliente</p>
+                    <p class="message">Complete os dados do cliente para cadastrá-lo</p>
+
+                    <label>
+                        <input class="input" type="text" placeholder="" required="">
+                        <span>Nome Completo</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="date">
+                        <span id="datalocal">Data de Nascimento</span>
+                    </label>
+
+                    <label class="genero">
+                        <span>Genêro</span>
+                        <br>
+                        <input type="radio" name="genero" value="masc" required>
+                        Masculino
+                        <input type="radio" name="genero" value="femi">
+                        Feminino
+                        <input type="radio" name="genero" value="naoDizer">
+                        Prefiro não dizer
+                    </label>
+
+                    <label>
+                        <input class="input" type="text" placeholder="" required>
+                        <span>Endereço</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="text" placeholder="" required>
+                        <span>Bairro</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="text" placeholder="" required>
+                        <span>Numero</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="email" placeholder="" required>
+                        <span>Email</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="text" placeholder="" required>
+                        <span>C.P.F</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="text" placeholder="" required>
+                        <span>Complemento</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="text" placeholder="" required>
+                        <span>Celular</span>
+                    </label>
+
+                    <label>
+                        <input class="input" type="text" placeholder="">
+                        <span>Telefone</span>
+                    </label>
+
+                    <label class="labelDeclarar">
+                        <span>Declaro que o Cliente está de acordo e autoriza a ultilização do numero informado para
+                            meios de contato via telefonica e/ou whatsapp</span>
+                        <br><br>
+                        <input type="radio" name="declaro" value="sim" required>
+                        Sim
+                        <input type="radio" name="declaro" value="nao">
+                        Não
+                    </label>
+
+                    <label>
+                        Alergia a algum medicamento?
+                        <input type="checkbox" id="exibeTextArea" onclick="ativaTextArea()">
+                        <br><br>
+                        <textarea id="minhaTextArea" rows="4" cols="50"
+                            placeholder="Digite os medicamentos alérgicos..."></textarea>
+                    </label>
+
+                    <label class="ConsPlan">
+                        O(a) Cliente irá realizar
+                        <select name="" id="">
+                            <option value="">Consulta</option>
+                            <option value="">Plano</option>
+                        </select>
+                    </label>
+
+                    <button class="submit">Enviar</button>
+
+                </form>
+                <button class="close-btn" onclick="fecharModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>

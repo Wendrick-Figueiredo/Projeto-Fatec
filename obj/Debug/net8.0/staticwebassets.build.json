@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Kn/bIT4TrAOP6tgFOrfjt2xzE7FECKqFjTdJZQ4pvkc=",
+  "Hash": "1TQeoS+YibZLgV+U1eHAjGTXDJAKxjxia0r0xA4sll0=",
   "Source": "Projeto-Fatec",
   "BasePath": "_content/Projeto-Fatec",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "d:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Projeto-Fatec.styles.css",
+      "Identity": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Projeto-Fatec.styles.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Computed",
-      "ContentRoot": "d:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Projeto-Fatec",
       "RelativePath": "Projeto-Fatec.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "d:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Projeto-Fatec.styles.css"
+      "OriginalItemSpec": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Projeto-Fatec.styles.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Projeto-Fatec.bundle.scp.css",
+      "Identity": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Projeto-Fatec.bundle.scp.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Computed",
-      "ContentRoot": "d:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Projeto-Fatec",
       "RelativePath": "Projeto-Fatec.bundle.scp.css",
       "AssetKind": "All",
@@ -52,10 +52,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "d:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Projeto-Fatec.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Projeto-Fatec\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Projeto-Fatec.bundle.scp.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\css\\barralateral\\style copy.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\barralateral\\style copy.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -74,7 +74,7 @@
       "OriginalItemSpec": "wwwroot\\css\\barralateral\\style copy.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\css\\barralateral\\style.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\barralateral\\style.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -93,7 +93,45 @@
       "OriginalItemSpec": "wwwroot\\css\\barralateral\\style.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\css\\login\\style.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\calendario.css",
+      "SourceId": "Projeto-Fatec",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
+      "BasePath": "_content/Projeto-Fatec",
+      "RelativePath": "css/calendario.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\calendario.css"
+    },
+    {
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\login\\~\\img\\use.jpeg",
+      "SourceId": "Projeto-Fatec",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
+      "BasePath": "_content/Projeto-Fatec",
+      "RelativePath": "css/login/~/img/use.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login\\~\\img\\use.jpeg"
+    },
+    {
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\login\\style.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -112,7 +150,7 @@
       "OriginalItemSpec": "wwwroot\\css\\login\\style.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\css\\site.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -131,7 +169,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\favicon.ico",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -150,7 +188,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\img\\logoDente.jpeg",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\img\\logoDente.jpeg",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -169,7 +207,7 @@
       "OriginalItemSpec": "wwwroot\\img\\logoDente.jpeg"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\img\\use.jpeg",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\img\\use.jpeg",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -188,7 +226,7 @@
       "OriginalItemSpec": "wwwroot\\img\\use.jpeg"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\js\\barralateral\\script.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\js\\barralateral\\script.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -207,7 +245,45 @@
       "OriginalItemSpec": "wwwroot\\js\\barralateral\\script.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\js\\calendario.js",
+      "SourceId": "Projeto-Fatec",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
+      "BasePath": "_content/Projeto-Fatec",
+      "RelativePath": "js/calendario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\calendario.js"
+    },
+    {
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\js\\script.js",
+      "SourceId": "Projeto-Fatec",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
+      "BasePath": "_content/Projeto-Fatec",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\js\\site.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -226,7 +302,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -245,7 +321,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -264,7 +340,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -283,7 +359,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -302,7 +378,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -321,7 +397,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -340,7 +416,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -359,7 +435,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -378,7 +454,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -397,7 +473,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -416,7 +492,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -435,7 +511,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -454,7 +530,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -473,7 +549,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -492,7 +568,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -511,7 +587,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -530,7 +606,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -549,7 +625,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -568,7 +644,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -587,7 +663,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -606,7 +682,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -625,7 +701,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -644,7 +720,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -663,7 +739,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -682,7 +758,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -701,7 +777,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -720,7 +796,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -739,7 +815,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -758,7 +834,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -777,7 +853,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -796,7 +872,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -815,7 +891,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -834,7 +910,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -853,7 +929,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -872,7 +948,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -891,7 +967,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -910,7 +986,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -929,7 +1005,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -948,7 +1024,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -967,7 +1043,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -986,7 +1062,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1005,7 +1081,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1024,7 +1100,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1043,7 +1119,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1062,7 +1138,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1081,7 +1157,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1100,7 +1176,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1119,7 +1195,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1138,7 +1214,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1157,7 +1233,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1176,7 +1252,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1195,7 +1271,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1214,7 +1290,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1233,7 +1309,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1252,7 +1328,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1271,7 +1347,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",
@@ -1290,7 +1366,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "d:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Projeto-Fatec\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Projeto-Fatec",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projeto-Fatec\\wwwroot\\",

@@ -8,8 +8,11 @@ builder.Services.AddControllersWithViews();
 //Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 
 builder.Services.AddEntityFrameworkNpgsql()
-    .AddDbContext<Contexto>(options =>
+    .AddDbContext<AppDbContext>(options =>
     options.UseNpgsql("Host=localhost;Port=5433;Database=Projeto-Fatec;Username=postgres;Password=Teste01;"));
+
+// Registre o UsuarioService com o caminho completo do namespace
+builder.Services.AddScoped<WebPostgreSQL.Models.UsuarioService.UsuarioService>();
 
 var app = builder.Build();
 

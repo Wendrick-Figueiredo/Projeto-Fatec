@@ -1,0 +1,113 @@
+.calendar-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.calendar-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+table.calendar {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.calendar th, table.calendar td {
+  width: 14.28%;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+table.calendar th {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+table.calendar td {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+
+table.calendar td:hover {
+  background-color: #ddd;
+}
+
+
+table.calendar td.today {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+table.calendar td.inactive {
+  color: #b0b0b0; 
+  background-color: transparent; /* Fundo transparente para dias inativos */
+  cursor: default; 
+}
+
+
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.month-grid div, .year-grid div {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.month-grid div:hover, .year-grid div:hover {
+  background-color: #45a049;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.inactive {
+  color: #ccc; /* Cor mais clara para dias inativos */
+  text-decoration: line-through; /* Riscar os dias inativos */
+}
+
+.current-month {
+  color: black; /* Cor normal para dias do mês atual */
+}
+
+.today {
+  background-color: #FFD700; /* Destaque para o dia atual (ex: amarelo) */
+  font-weight: bold; /* Negrito para o dia atual */
+}

@@ -9,213 +9,308 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f9;
-        }
-
-        .login-container {
-            width: 300px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        label {
-            display: block;
-            font-weight: bold;
-            color: #555;
-        }
-
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-top: 5px;
-        }
-
-        button[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
-            border: none;
-            border-radius: 4px;
-            color: #fff;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        button[type="submit"]:hover {
-            background-color: #45a049;
-        }
-
-        .error-message {
-            color: red;
-            text-align: center;
-            margin-top: 10px;
-        }
-    </style>
+    @* <link rel="stylesheet" type="text/css" href="style.css"> *@
+    <title>Tela de Login</title>
 </head>
+<style>
+    body {
+        
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    main {
+        background-image: url("~/css/login/~/img/use.jpeg");
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .efeitoLabel {
+        transition: all 0.5s;
+        width: 94%;
+        font-size: 17px;
+        padding: 1ch 2ch;
+        background-color: white;
+        font-weight: bolder;
+        color: #000;
+        cursor: pointer;
+        border: none;
+        border-radius: 2px;
+        box-shadow:
+            -2px -2px 0px hsl(0, 0%, 70%),
+            -4px -4px 0px hsl(0, 0%, 60%),
+            -6px -6px 0px hsl(0, 0%, 50%),
+            -8px -8px 0px hsl(0, 0%, 40%),
+            -10px -10px 0px hsl(0, 0%, 30%);
+    }
+
+    .password-container-registro {
+        position: relative;
+        /* Para posicionar o ícone em relação ao campo */
+    }
+
+    .password-container-registro input {
+        padding-right: 30px;
+        /* Espaço para o ícone */
+    }
+
+    #togglePassword-registro {
+        position: absolute;
+        right: 10px;
+        /* Distância do lado direito */
+        top: 50%;
+        /* Centralizar verticalmente */
+        transform: translateY(-50%);
+        /* Ajuste para centralizar corretamente */
+        cursor: pointer;
+        /* Mudar o cursor para indicar que é clicável */
+    }
+
+    .efeitoPassword {
+        transition: all 0.5s;
+        width: 94%;
+        font-size: 17px;
+        padding: 1ch 2ch;
+        background-color: white;
+        color: #000;
+        font-weight: bolder;
+        cursor: pointer;
+        border: none;
+        border-radius: 2px;
+        box-shadow:
+            -2px -2px 0px hsl(0, 0%, 70%),
+            -4px -4px 0px hsl(0, 0%, 60%),
+            -6px -6px 0px hsl(0, 0%, 50%),
+            -8px -8px 0px hsl(0, 0%, 40%),
+            -10px -10px 0px hsl(0, 0%, 30%);
+    }
+
+    .form-container-registro {
+        width: 350px;
+        border-radius: 0.75rem;
+        background-color: rgba(17, 24, 39, 0.8);
+        padding: 2rem;
+        color: rgba(243, 244, 246, 1);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .title-registro {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 700;
+    }
+
+    .form-registro {
+        margin-top: 1.5rem;
+    }
+
+    .input-group-registro {
+        margin-top: 0.25rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .input-group-registro label {
+        display: block;
+        color: rgba(156, 163, 175, 1);
+        margin-bottom: 4px;
+    }
+
+    .input-group-registro input {
+        width: 95%;
+        border-radius: 0.375rem;
+        border: 1px solid rgba(55, 65, 81, 1);
+        outline: 0;
+        background-color: rgba(17, 24, 39, 1);
+        padding: 0.75rem 1rem;
+        color: rgba(243, 244, 246, 1);
+    }
+
+    .input-group-registro input:focus {
+        border-color: rgba(167, 139, 250);
+    }
+
+    .sign-registro {
+        display: block;
+        width: 100%;
+        background-color: rgba(167, 139, 250, 1);
+        padding: 0.75rem;
+        text-align: center;
+        color: rgba(17, 24, 39, 1);
+        border: none;
+        border-radius: 0.375rem;
+        font-weight: 600;
+    }
+
+    .social-message {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .line {
+        height: 1px;
+        flex: 1 1 0%;
+        background-color: rgba(55, 65, 81, 1);
+    }
+
+    .social-message .message {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: rgba(156, 163, 175, 1);
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-icons .icon {
+        border-radius: 0.125rem;
+        padding: 0.75rem;
+        border: none;
+        background-color: transparent;
+        margin-left: 8px;
+    }
+
+    .social-icons .icon svg {
+        height: 1.25rem;
+        width: 1.25rem;
+        fill: #fff;
+    }
+
+    .signup-registro {
+        text-align: center;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        color: rgba(156, 163, 175, 1);
+    }
+</style>
 
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form asp-controller="Auth" asp-action="Login" method="post">
-            <div class="form-group">
-                <label for="nomeUsuario">Nome de Usuário</label>
-                <input type="text" id="nomeUsuario" name="nomeUsuario" required>
-            </div>
-            <div class="form-group">
-                <label for="senhaUsuario">Senha</label>
-                <input type="password" id="senhaUsuario" name="senhaUsuario" required>
-            </div>
-            <button type="submit">Entrar</button>
-            @if (ViewBag.ErrorMessage != null)
-            {
-                <p class="error-message">@ViewBag.ErrorMessage</p>
-            }
-        </form>
-    </div>
+    <main>
+        <div class="form-container-registro">
+            <p class="title-registro">Login</p>
+            <form class="form-registro">
+
+                <div class="input-group-registro">
+                    <label for="role">Selecione seu perfil</label>
+                    <select name="role" id="role">
+                        <option value="usuario" selected>Usuário</option>
+                        <option value="admin">Administrador</option>
+                    </select>
+                </div><br>
+
+                <!-- Campos para administrador -->
+                <div id="adminFields" style="display: none;">
+                    <div class="input-group-registro">
+                        <label for="codigoAcesso">Código de Acesso do Administrador</label>
+                        <input type="text" name="codigoAcesso" id="codigoAcesso" placeholder="Código de Acesso do Adm">
+                    </div>
+                    <div class="input-group-registro">
+                        <label for="adm-login">Nome Adm ou User Adm</label>
+                        <input type="text" name="adm-login" id="adm-login" placeholder="Digite o Nome do Adm">
+                    </div>
+                    <div class="input-group-registro">
+                        <label for="senha-login">Senha</label>
+                        <input type="password" name="senha-login" id="senha-login" placeholder="Digite a sua Senha">
+                    </div>
+                </div>
+
+                <!-- Campos para usuário -->
+                <div id="userFields">
+                    <div class="input-group-registro"><br>
+                        <label for="username-registro">Nome ou Usuário</label>
+                        <input type="text" name="username-registro" id="username-registro" placeholder="">
+                    </div>
+                    <div class="input-group-registro"><br>
+                        <label for="password-registro" id="label">Senha</label>
+                        <div class="password-container-registro">
+                            <input type="password" name="password-registro" id="password-registro" placeholder="">
+                            <span id="togglePassword-registro" title="Ver Minha Senha">👁️</span>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+                <button class="sign-registro" asp-controller="Home" asp-action="Index">Entrar</button>
+            </form>
+            <p class="signup-registro">Não tenho conta?
+                <a rel="noopener noreferrer" href="#" class="">Cadastrar</a>
+            </p>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const usernameInputRegistro = document.getElementById("username-registro");
+            const passwordInputRegistro = document.getElementById("password-registro");
+            const usernameLabelRegistro = document.querySelector("label[for='username-registro']");
+            const passwordLabelRegistro = document.querySelector("label[for='password-registro']");
+            const togglePasswordButtonRegistro = document.getElementById("togglePassword-registro");
+
+            const originalUserText = usernameLabelRegistro.innerText;
+            const originalPassText = passwordLabelRegistro.innerText;
+
+            const roleSelect = document.getElementById("role");
+            const adminFields = document.getElementById("adminFields");
+            const userFields = document.getElementById("userFields");
+
+            adminFields.style.display = "none";
+            userFields.style.display = "block";
+
+            roleSelect.addEventListener("change", function () {
+                if (roleSelect.value === "admin") {
+                    adminFields.style.display = "block";
+                    userFields.style.display = "none";
+                } else {
+                    adminFields.style.display = "none";
+                    userFields.style.display = "block";
+                }
+            });
+
+            usernameInputRegistro.addEventListener("focus", function () {
+                usernameLabelRegistro.classList.add("efeitoLabel");
+                usernameLabelRegistro.innerText = "Digite Nome ou Usuário...";
+            });
+
+            usernameInputRegistro.addEventListener("blur", function () {
+                usernameLabelRegistro.classList.remove("efeitoLabel");
+                usernameLabelRegistro.innerText = originalUserText;
+            });
+
+            passwordInputRegistro.addEventListener("focus", function () {
+                passwordLabelRegistro.classList.add("efeitoPassword");
+                passwordLabelRegistro.innerText = "Digite uma Senha..."
+            });
+
+            passwordInputRegistro.addEventListener("blur", function () {
+                passwordLabelRegistro.classList.remove("efeitoPassword");
+                passwordLabelRegistro.innerText = originalPassText;
+            });
+
+            togglePasswordButtonRegistro.addEventListener("click", function () {
+                const isPasswordType = passwordInputRegistro.type === "password";
+                passwordInputRegistro.type = isPasswordType ? "text" : "password";
+                togglePasswordButtonRegistro.innerText = isPasswordType ? "🙈" : "👁️";
+            });
+        });
+    </script>
 </body>
 
 </html>
-
-
-@* @{
-Layout = null;
-}
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="~/css/login/style.css">
-<title>@ViewData["Title"]Login</title>
-</head>
-
-<main>
-<div class="form-container-registro">
-<p class="title-registro">Login</p>
-<form class="form-registro">
-
-<div class="input-group-registro">
-<label for="role">Selecione seu perfil</label>
-<select name="role" id="role">
-<option value="usuario" selected>Usuário</option>
-<option value="admin">Administrador</option>
-</select>
-</div><br>
-
-<!-- Campos para administrador -->
-<div id="adminFields" style="display: none;">
-<div class="input-group-registro">
-<label for="codigoAcesso">Código de Acesso do Administrador</label>
-<input type="text" name="codigoAcesso" id="codigoAcesso" placeholder="Código de Acesso do Adm">
-</div>
-<div class="input-group-registro">
-<label for="adm-login">Nome Adm ou User Adm</label>
-<input type="text" name="adm-login" id="adm-login" placeholder="Digite o Nome do Adm">
-</div>
-<div class="input-group-registro">
-<label for="senha-login">Senha</label>
-<input type="password" name="senha-login" id="senha-login" placeholder="Digite a sua Senha">
-</div>
-</div>
-
-<!-- Campos para usuário -->
-<div id="userFields">
-<div class="input-group-registro"><br>
-<label for="username-registro">Nome ou Usuário</label>
-<input type="text" name="username-registro" id="username-registro" placeholder="">
-</div>
-<div class="input-group-registro"><br>
-<label for="password-registro" id="label">Senha</label>
-<div class="password-container-registro">
-<input type="password" name="password-registro" id="password-registro" placeholder="">
-<span id="togglePassword-registro" title="Ver Minha Senha">👁️</span>
-</div>
-</div>
-</div>
-
-<br><br>
-<button class="sign-registro" asp-controller="Home" asp-action="Index">Entrar</button>
-</form>
-<p class="signup-registro">Não tenho conta?
-<a rel="noopener noreferrer" href="#" class="">Cadastrar</a>
-</p>
-</div>
-</main>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-const usernameInputRegistro = document.getElementById("username-registro");
-const passwordInputRegistro = document.getElementById("password-registro");
-const usernameLabelRegistro = document.querySelector("label[for='username-registro']");
-const passwordLabelRegistro = document.querySelector("label[for='password-registro']");
-const togglePasswordButtonRegistro = document.getElementById("togglePassword-registro");
-
-const originalUserText = usernameLabelRegistro.innerText;
-const originalPassText = passwordLabelRegistro.innerText;
-
-const roleSelect = document.getElementById("role");
-const adminFields = document.getElementById("adminFields");
-const userFields = document.getElementById("userFields");
-
-adminFields.style.display = "none";
-userFields.style.display = "block";
-
-roleSelect.addEventListener("change", function () {
-if (roleSelect.value === "admin") {
-adminFields.style.display = "block";
-userFields.style.display = "none";
-} else {
-adminFields.style.display = "none";
-userFields.style.display = "block";
-}
-});
-
-usernameInputRegistro.addEventListener("focus", function () {
-usernameLabelRegistro.classList.add("efeitoLabel");
-usernameLabelRegistro.innerText = "Digite Nome ou Usuário...";
-});
-
-usernameInputRegistro.addEventListener("blur", function () {
-usernameLabelRegistro.classList.remove("efeitoLabel");
-usernameLabelRegistro.innerText = originalUserText;
-});
-
-passwordInputRegistro.addEventListener("focus", function () {
-passwordLabelRegistro.classList.add("efeitoPassword");
-passwordLabelRegistro.innerText = "Digite uma Senha..."
-});
-
-passwordInputRegistro.addEventListener("blur", function () {
-passwordLabelRegistro.classList.remove("efeitoPassword");
-passwordLabelRegistro.innerText = originalPassText;
-});
-
-togglePasswordButtonRegistro.addEventListener("click", function () {
-const isPasswordType = passwordInputRegistro.type === "password";
-passwordInputRegistro.type = isPasswordType ? "text" : "password";
-togglePasswordButtonRegistro.innerText = isPasswordType ? "🙈" : "👁️";
-});
-});
-</script> *@
