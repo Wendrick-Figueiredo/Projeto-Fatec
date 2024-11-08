@@ -1,5 +1,5 @@
-const header = document.querySelector('.header');
-const main = document.querySelector('.main');
+const header = document.querySelector('header');
+const main = document.querySelector('main');
 
 header.addEventListener('mouseenter', () => {
     main.classList.add("moverFixed");

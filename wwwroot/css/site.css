@@ -87,7 +87,7 @@ main .relogio-container {
   width: 100%;
   z-index: -1000;
   height: 60px;
-  background-color: #1c1f26;
+  background-color: #1b1b1b;
   display: flex;
   justify-content: center;
   align-items: center;
